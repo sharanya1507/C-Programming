@@ -15,4 +15,6 @@ int main()
     scanf("%lf", &num2);
 
     printf("the addition of %f and %f is %f", num1, num2, num1 + num2);
+
+    // can have other operaters also with the same following procedure.
 }
