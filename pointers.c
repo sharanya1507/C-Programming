@@ -11,5 +11,7 @@ int main() {
 
     printf("name:%p\n grade:%p\n gpa:%p\n", &name, &grade, &gpa);
     printf("pName:%p\n pGrade:%p\n pGpa:%p\n", pName, pGrade, pGpa);
+    // dereference the pointers
+    printf("name:%s\n grade:%d\n gpa:%.1f\n", pName, *pGrade, *pGpa);
     return 0;
 }
